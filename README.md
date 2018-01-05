@@ -16,3 +16,7 @@ SHORTCOMINGS:
 	2.some applcition has found the image file but can't display in the panel
 	3.this application takes a long time to startup at the first time
 	4.all the shortcomings above may result from an bad algorithm
+
+Cautions:
+	when testing you should extract excutable file from exec.tgz and set environment variables export LD_LIBRARY_PATH=$(PWD):$LD_LIBRARY_PATY
+	($(PWD) means the dir you extract the exec.tgz), the run menu
